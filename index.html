@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESte es mi CV</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background: linear-gradient(to right, #ffe0e9, #e0f7fa);
+            color: #444;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            max-width: 1000px;
+            width: 90%;
+        }
+        header {
+            text-align: center;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-left: 10px solid #00bcd4;
+            transition: transform 0.3s ease;
+        }
+        header:hover {
+            transform: scale(1.02);
+        }
+        header h1 {
+            font-size: 2.5em;
+            color: #333;
+        }
+        header p, header a {
+            margin-top: 10px;
+            font-size: 1.1em;
+            color: #00796b;
+            text-decoration: none;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        .card {
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-left: 8px solid #f48fb1;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+        }
+        h2 {
+            margin-bottom: 15px;
+            color: #333;
+            border-bottom: 3px solid #00bcd4;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style: none;
+            padding-left: 20px;
+        }
+        ul li {
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 15px;
+        }
+        ul li::before {
+            content: '✔️';
+            position: absolute;
+            left: 0;
+            color: #f48fb1;
+        }
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            color: #555;
+            margin-top: 30px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>Lisseth Karen Gutierrez Bolaños</h1>
+            <p>Ingeniera Mecatrónica | Innovación Educativa | Automatización</p>
+            <p>📍 Huancayo, Perú | 📞 +51 916 216 750 | 📧 lissethkareng@gmail.com</p>
+            <a href="https://www.linkedin.com/in/lisseth-karen-guitierrez-bolaños-6587b1273" target="_blank">Mi LinkedIn</a>
+        </header>
+
+        <section class="card">
+            <h2>Sobre mí</h2>
+            <p>Soy bachiller en Ingeniería Mecatrónica por la Universidad Continental, con experiencia en investigación, automatización y desarrollo de tecnología educativa. Fui sublíder del equipo de practicantes en Crayola Visual, donde lideré el diseño del robot educativo "Quwi" (4to puesto nacional). Fui entrevistada por la revista Bitácora y participé en proyectos premiados a nivel nacional e internacional. Domino SolidWorks, Inventor, EasyEDA, y poseo habilidades en PLC, inglés intermedio y liderazgo en equipos.</p>
+        </section>
+
+        <section class="card">
+            <h2>Experiencia Profesional</h2>
+            <h3>CRAYOLA VISUAL</h3>
+            <p><strong>Sub Líder del Equipo de Practicantes | Área de Investigación</strong></p>
+            <p>Marzo 2024 – Septiembre 2024 | Huancayo, Perú</p>
+            <ul>
+                <li>Sub-lideré el diseño del robot educativo "Quwi" para niños de primaria y secundaria.</li>
+                <li>Coordiné tareas y documentación técnica junto al líder del equipo.</li>
+                <li>4to puesto en el Concurso de Patentes de la Universidad Continental.</li>
+                <li>Entrevistada por la revista Bitácora como mujer destacada en ingeniería e innovación.</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>Proyectos Destacados</h2>
+            <ul>
+                <li><strong>Robot asistencial para niños con síndrome de Asperger:</strong> Proyecto terapéutico con pantalla táctil, sonidos y juego Flappy Bird en Arduino Mega. (1er puesto)</li>
+                <li><strong>Intérprete de lengua de señas:</strong> Sistema basado en YOLOv8 que traduce señas a voz y texto. (2do puesto)</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>Logros</h2>
+            <ul>
+                <li>Ganadora de la XVI Feria de Ingeniería (1er puesto – Artículo Científico) – Diciembre 2023</li>
+                <li>Finalista Top 10 – Feria Internacional Kimen con “Misi Cat” – Dic 2023 a Feb 2024</li>
+                <li>Segundo puesto – ExpoPatenta (Artículo Científico) con el proyecto “Intérprete de lengua de señas” – Diciembre 2024</li>
+                <li>Expositora en la Feria Concytec 2024 – Proyecto “Intérprete de lengua de señas” – Noviembre 2024</li>
+                <li>Entrevistada por la revista Bitácora como mujer líder en proyectos educativos – 2024</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>Educación</h2>
+            <ul>
+                <li><strong>Universidad Continental:</strong> Bachiller en Ingeniería Mecatrónica – Marzo 2020 a Diciembre 2024</li>
+                <li><strong>Centro de Idiomas Continental:</strong> Nivel básico e intermedio de inglés – Enero a Agosto 2024</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>Habilidades Técnicas</h2>
+            <ul>
+                <li>SolidWorks e Inventor – Nivel intermedio</li>
+                <li>Diseño de circuitos electrónicos – EasyEDA – Nivel intermedio</li>
+                <li>Diseño de sistemas mecánicos para diversas aplicaciones</li>
+                <li>Programación y diseño de circuitos PLC</li>
+                <li>Organización y liderazgo de equipos de trabajo</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>© 2025 Lisseth Karen Gutierrez Bolaños | Contacto: lissethkareng@gmail.com</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
